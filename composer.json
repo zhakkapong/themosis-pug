@@ -1,0 +1,20 @@
+{
+    "name": "zhakkapong/themosis-pug",
+    "description": "Pug view adapter for Themosis",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zhakkapong Ponngam",
+            "email": "zhakkapong@gmail.com"
+        }
+    ],
+    "require": {
+        "bkwld/laravel-pug": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhakkapong\\ThemosisPug\\": "src/"
+        }
+    }
+}
